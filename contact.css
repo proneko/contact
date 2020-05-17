@@ -179,14 +179,20 @@ body {
   #bg0 ul {
     margin: 0 auto;
   }
+  .about .contentBx {
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .about .contentBx {
+    padding: 100px 50px;
+  }
 }
 @media (max-width: 440px) {
   #bg0 ul li {
     font-size: 10px;
   }
-}
-@media (max-width: 400px) {
   .about .contentBx {
-    padding: 100px 100px 100px 30px;
+    padding: 100px 10px 100px 0;
   }
 }
