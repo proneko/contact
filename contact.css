@@ -84,69 +84,23 @@ body {
   text-align: center;
   color: white;
 }
-
-
-.about {
-  position: relative;
+.contact {
   width: 100%;
+}
+.contact .container {
   display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
-.about .contentBx {
-  padding: 100px;
-  width: 50%;
-  margin-left: 40px;
+.contact .container img  {
+  height: 50px;
+  width: 50px;
 }
-.redbg {
-  opacity: 0.7;
-  background-size: cover;
-  background-position: center;
+.contact .container .title {
+  color: white;
 }
-.form .inputBx {
-  margin-bottom: 40px;
-}
-.form .inputBx input {
-  width: 100%;
-  background: transparent;
-  box-shadow: none;
-  border: none;
-  outline: none;
-  padding: 10px 0;
-  font-size: 18px;
-  font-weight: 300;
-  color: #fff;
-  border-bottom: 2px solid #fff;
-}
-.form .inputBx textarea {
-  width: 100%;
-  background: transparent;
-  box-shadow: none;
-  border: none;
-  outline: none;
-  padding: 10px 0;
-  font-size: 18px;
-  font-weight: 300;
-  color: #fff;
-  min-height: 150px;
-  border-bottom: 2px solid #fff;
-}
-.form .inputBx input[type="submit"] {
-  width: 150px;
-  background: #fff;
-  color: #111;
-  cursor: pointer;
-  font-weight: 400px;
-}
-.imgBx2 {
-  background: url(bg2.png);
-  background-size: cover;
-  background-position: center;
-  width: 50%;
-}
-.form .inputBx input::placeholder {
-  color: #fff;
-}
-.form .inputBx textarea::placeholder {
-  color: #fff;
+.contact .container .text {
+  color: white;
 }
 
 
@@ -179,20 +133,18 @@ body {
   #bg0 ul {
     margin: 0 auto;
   }
-  .about .contentBx {
-    width: 100%;
+  .contact .container {
+    display: inline;
   }
-}
-@media (max-width: 600px) {
-  .about .contentBx {
-    padding: 100px 50px;
+  .contact {
+    margin-left: 50px;
+  }
+  .contact .container .box{
+    margin-top: 50px
   }
 }
 @media (max-width: 440px) {
   #bg0 ul li {
     font-size: 10px;
-  }
-  .about .contentBx {
-    padding: 100px 10px 100px 0;
   }
 }
